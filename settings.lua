@@ -1,0 +1,60 @@
+data:extend({
+
+    {
+		type = "double-setting",
+		name = "ranamod-stamina-a-min-health",
+		setting_type = "runtime-global",
+		default_value = 0.1,
+		minimum_value = 0.01,
+		maximum_value = 0.90,
+	},
+    {
+		type = "double-setting",
+		name = "ranamod-stamina-b-crafting-drain",
+		setting_type = "runtime-global",
+		default_value = 2,
+		minimum_value = 0.00,
+		maximum_value = 25.0,
+	},
+    {
+		type = "double-setting",
+		name = "ranamod-stamina-c-mining-drain",
+		setting_type = "runtime-global",
+		default_value = 4,
+		minimum_value = 0.00,
+		maximum_value = 25.0,
+	},
+    {
+		type = "double-setting",
+		name = "ranamod-stamina-d-walk-drain",
+		setting_type = "runtime-global",
+		default_value = 2,
+		minimum_value = 0.0,
+		maximum_value = 25.0,
+	},
+    {
+		type = "double-setting",
+		name = "ranamod-stamina-e-min-crafting-speed",
+		setting_type = "runtime-global",
+		default_value = 0.1,
+		minimum_value = 0.0,
+		maximum_value = 1.0,
+	},
+    {
+		type = "double-setting",
+		name = "ranamod-stamina-f-min-mining-speed",
+		setting_type = "runtime-global",
+		default_value = 0.1,
+		minimum_value = 0.0,
+		maximum_value = 1.0,
+	},
+    {
+		type = "double-setting",
+		name = "ranamod-stamina-g-min-running-speed",
+		setting_type = "runtime-global",
+		default_value = 0.5,
+		minimum_value = 0.0,
+		maximum_value = 1.0,
+	},
+
+})

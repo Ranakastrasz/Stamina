@@ -1,0 +1,11 @@
+{
+  "name": "Stamina",
+  "version": "15.1.0",
+  "factorio_version": "0.15",
+  "title": "Stamina",
+  "author": "Ranakastrasz",
+  "homepage": "",
+  "contact": "",
+  "description": "Crafting and Mining use hitpoints, and slow down with low health. Nonlethal.",
+  "dependencies": ["base >= 0.15.0"]
+}
